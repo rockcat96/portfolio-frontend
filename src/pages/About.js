@@ -6,7 +6,7 @@ function About(props){
 
     return <div>
         <h2>{about.name}</h2>
-        <img src={about.headshot}/>
+        <img src={about.headshot} alt={about.name}/>
         <h2>{about.email}</h2>
         <p>{about.bio}</p>
     </div>
